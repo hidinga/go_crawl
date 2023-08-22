@@ -8,8 +8,8 @@ import (
     "encoding/json"
     "strings"
     "strconv"
-    "gogo/comm"
-    "gogo/conf"
+    "crawl/comm"
+    "crawl/conf"
 )
 
 // 定义全局 DB
