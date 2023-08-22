@@ -11,8 +11,8 @@ import (
     "time"
     "strconv"
     "strings"
-    "gogo/comm"
-    "gogo/conf"
+    "crawl/comm"
+    "crawl/conf"
 )
 
 func GetData(t string ,d comm.DateTime) []byte {
