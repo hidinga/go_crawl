@@ -6,7 +6,7 @@ import (
     "net"
     "strconv"
     "golang.org/x/crypto/ssh"
-    "gogo/conf"
+    "crawl/conf"
 )
 
 var (
