@@ -77,11 +77,11 @@ func Init() {
     // 初始化配置文件
     
     Ssh = SshCfg{
-        User: "root", Local: "127.0.0.1:2080", Server: "172.104.162.206:22",
+        User: "root", Local: "127.0.0.1:2080", Server: "172.16.1.206:22",
     }
     
     Database = DatabaseCfg{
-        Host: "162.14.131.88", Port: 3306, Username: "fund", Password: "jzzG123",
+        Host: "172.16.131.88", Port: 3306, Username: "test", Password: "test797",
     }
     
     Web = WebCfg{
@@ -168,10 +168,7 @@ func Init() {
             case "web":
                p = p3
         }
-        
-        // k 为 ini 的 section
-        // v 为 ini 的 键值对
-        
+
         v := strings.Split(str, "=")
         
         // 通过反射修改结构体值
